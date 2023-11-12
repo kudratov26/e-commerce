@@ -7,11 +7,18 @@
     justify-content: space-between;
 }
 
-.svg {
-    width: 40px;
-    fill: #fff;
+.cart {
+    position: relative;
 }
 
-.svg:last-child {
-    width: 32px;
+.cart>span {
+    position: absolute;
+    right: -15px;
+    bottom: -15px;
+    font-size: 1.92rem;
+    color: #fff;
+}
+
+.btn {
+    cursor: pointer;
 }
