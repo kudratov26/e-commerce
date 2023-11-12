@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #252b48;
+    padding: 1.77rem 2.88rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg {
+    width: 40px;
+    fill: #fff;
+}
+
+.svg:last-child {
+    width: 32px;
+}

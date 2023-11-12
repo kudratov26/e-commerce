@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import Header from './components/Header/Header'
+import Hero from './components/Hero/Hero'
 import Products from './components/Products/Products'
 
 export const App = () => {
   return (
     <div>
       <Navbar />
-      <Header />
+      <Hero />
       <Products />
     </div>
   )

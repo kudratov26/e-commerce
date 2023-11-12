@@ -1,0 +1,59 @@
+.product {
+    border: 2px solid gray;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 2.4rem;
+    padding-bottom: .8rem;
+    box-shadow: 0 0 3px #252b48;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.head-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.img-box {
+    width: 17.6rem;
+    height: 11.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px #9d174d;
+    transition: all 0.3s ease;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.img-box>img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 1.76rem;
+    text-align: center;
+}
+
+.price {
+    font-size: 2.88rem;
+}
+
+.dollar {
+    color: #a4105a;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-box>img {
+    width: 35px;
+}

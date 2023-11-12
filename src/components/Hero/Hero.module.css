@@ -1,0 +1,9 @@
+.hero {
+    margin: 0 38.05rem;
+    padding-top: 10.4rem;
+    padding-bottom: 2.4rem;
+}
+
+.hero>img {
+    width: 100%;
+}
